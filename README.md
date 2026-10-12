@@ -176,20 +176,6 @@ Two details in the supplied materials should be resolved before reporting the ex
 
 These are listed rather than silently reconciled because the underlying code is not part of the supplied files.
 
-## Suggested repository structure
-
-The following is a suggested layout. Update it to match the actual files committed to GitHub.
-
-```text
-.
-├── README.md
-├── heart_ml_all_results_combined.csv
-├── data/                 # Add dataset instructions; avoid committing data without permission
-├── notebooks/            # Add the experiment notebooks used to generate the results
-├── src/                  # Add reusable preprocessing, training, and evaluation code
-└── requirements.txt      # Add tested and pinned dependencies
-```
-
 ## Disclaimer
 
 This project is for research and educational purposes only. It is not a medical device and must not be used to diagnose a patient or make clinical decisions.
